@@ -207,3 +207,6 @@ The EnrollController class handles HTTP requests related to student-course enrol
     - Integer studentId: ID of the student to be dropped from the course.
     - Integer courseId: ID of the course from which the student will be dropped.
 
+## Pre-Loaded Data into Student and Course Model
+
+![PreLoadedData_Postgres](https://github.com/Utkarsh798/StudentEnrollmentP/assets/98051479/866e6b24-c61f-4929-a04d-c8f9ab103cd7)
