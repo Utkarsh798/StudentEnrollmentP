@@ -16,30 +16,6 @@ public class CourseServices {
     CourseRepository courseRepository;
     @Autowired
     StudentRepository studentRepository;
-//
-//    public List<Course> getAllCourseByStudent(Integer studentId){
-//        return courseRepository.findAllByStudentId(studentId);
-//    }
-//
-//
-//    public Optional<Course> getcoursebyStudent(Integer studentId, Integer courseId) {
-//        return courseRepository.findCourseByStudentAndId(studentId,courseId);
-//    }
-//
-//    public void addCourseByStudent(Course course) {
-//        courseRepository.save(course);
-//    }
-//
-//    public void updateCourseByStudent(Course course, Integer courseId) {
-//        courseRepository.save(course);
-//    }
-//
-//
-//    public void deleteCourseByStudent(Integer courseId) {
-//
-//        courseRepository.deleteById(courseId);
-//
-//    }
 
     /************************************************* To access All the Course Information *********************/
     public List<Course> getAllCourse() {
