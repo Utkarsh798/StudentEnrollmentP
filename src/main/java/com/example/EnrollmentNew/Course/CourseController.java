@@ -22,57 +22,6 @@ public class CourseController {
     CourseRepository courseRepository;
 
 
-//
-//
-//    @GetMapping(path = "student/{studentId}/course")
-//    public List<Course> getAllCourseBasedStudent(@PathVariable Integer studentId){
-//        return courseServices.getAllCourseByStudent(studentId);
-//    }
-//
-//    @GetMapping(path = "student/{studentId}/course/{courseId}")
-//    public Optional<Course> getCourseBasedStudent(@PathVariable Integer courseId,
-//                                                  @PathVariable Integer studentId){
-//        return courseServices.getcoursebyStudent(studentId,courseId);
-//    }
-//
-//
-//    @PostMapping(path = "student/{studentId}/course")
-//    public void addCourseToStudent(@RequestBody Course course,
-//                                   @PathVariable Integer studentId){
-//        Optional<Student> studentOptional = studentRepository.findById(studentId);
-//        if (studentOptional.isPresent()) {
-//            Student student = studentOptional.get();
-//            course.setStudent(student);
-//            courseServices.addCourseByStudent(course);
-//        }
-//    }
-//
-//    @PutMapping(path = "student/{studentId}/course/{courseId}")
-//    public void updateCourseToStudent(@RequestBody Course course,
-//                                      @PathVariable Integer studentId,
-//                                      @PathVariable Integer courseId){
-//        Optional<Student> studentOptional = studentRepository.findById(studentId);
-//        if (studentOptional.isPresent()) {
-//            Student student = studentOptional.get();
-//            Optional<Course> existingCourseOptional = courseRepository.findById(courseId);
-//            if (existingCourseOptional.isPresent()) {
-//                Course existingCourse = existingCourseOptional.get();
-//                existingCourse.setCourse_name(course.getCourse_name());
-//                existingCourse.setCourse_semester(course.getCourse_semester());
-//                existingCourse.setDescription(course.getDescription());
-//                existingCourse.setStudent(student);
-//                courseServices.updateCourseByStudent(existingCourse, courseId);
-//            }
-//        }
-//    }
-//
-//    @DeleteMapping(path = "student/{studentId}/course/{courseId}")
-//    public void deleteCourseToStudent(@PathVariable Integer courseId){
-//        courseServices.deleteCourseByStudent(courseId);
-//    }
-//
-
-
 
     /************************************************* To access All the Course Information *********************/
 
