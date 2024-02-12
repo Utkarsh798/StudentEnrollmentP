@@ -1,0 +1,42 @@
+Student:
+{
+    "id": 1,
+    "name": "Utkarsh Amin",
+    "email": "utkarshamin@gmail.com",
+    "dob": "1998-09-18",
+    "major": "ComputerScience"
+}
+
+{
+    "id": 2,
+    "name": "Mihir Raj",
+    "email": "mihirraj@gmail.com",
+    "dob": "1996-09-10",
+    "major": "ComputerScience"
+}
+
+{
+    "id": 3,
+    "name": "Krishna Raj",
+    "email": "krishnaraj@gmail.com",
+    "dob": "1995-09-10",
+    "major": "ComputerScience"
+}
+
+{
+    "id": 4,
+    "name": "PayalRaj",
+    "email": "payalraj@gmail.com",
+    "dob": "1990-02-14",
+    "major": "Doctor"
+}
+
+
+
+Course:
+
+{
+  "course_name": "Java",
+  "course_semester":"Spring",
+  "description":"This is the Spring class of Java"
+}
